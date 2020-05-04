@@ -1,3 +1,4 @@
+/* Navagation Bar Code */
 li   {
     float:left;
 }
@@ -6,14 +7,153 @@ li a {
     display:block;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Rubik';
 }
 ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+.Nav ul{
     background-color: dodgerblue;
 }
 li a:hover {
-    background-color: rgb(0, 116, 233);
+    background-color: rgb(0, 117, 233);
+}
+nav{
+    font-family: 'Rubik';
+}
+
+/* Header/Logo */
+.SHBusinessLeaders li{
+    float: left;
+    text-align: center;
+}
+.SHBusinessLeaders p{
+    font-family: 'Rubik';
+    font-size: 20px;
+    padding:10px;
+    text-align: center;
+}
+.SHBusinessLeaders ul{
+    text-align: center;
+}
+.SHBusinessLeaders{
+    display: table;
+    margin: auto;
+}
+
+/* Information Form Code */
+.form h3{
+    color: rgb(245, 55, 55);
+    font-family: 'Noto Sans TC', sans-serif; 
+}
+.form{
+    background-color: rgb(219, 218, 218);
+}
+
+/* Page Headers */
+.AboutHeader{
+    font-family: 'Rubik';
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(245, 55, 55);
+    font-size: 35px;
+}
+.InfoHeader {
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(245, 55, 55);
+    font-size: 35px;
+}
+.EventsHeader {
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(245, 55, 55);
+    font-size: 35px;
+}
+.SponsHeader {
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(245, 55, 55);
+    font-size: 35px;
+}
+
+/*SHHS FBLA Top Logo*/
+
+.ShFblaLogo{
+    text-align: center;
+}
+
+.ShFblaLogo img {
+    width: 100px;
+}
+
+/*About Page*/
+
+.WhatIsFBLAh2 {  /* used for all question headers */
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 25px;
+    padding: 1px 35px;
+    margin: 0px;
+    background-color: dodgerblue;
+}
+.WhatIsFBLApara {
+    font-size: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Noto Sans TC';
+}
+.WhatIsFBLApara img {
+    float: right;
+}
+.FBLAGoalspara{
+    font-size: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Noto Sans TC';
+}
+.FBLAGoalspara img{
+    float: left;
+    height: 250px;
+}
+
+/*Info Page*/
+
+.InfoMessage {
+    background-color: dodgerblue;
+    font-family: 'Noto Sans TC';
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+/*Events Page*/
+
+.Covid-19Message{    
+    background-color: rgb(153, 153, 153);
+    font-family: 'Rubik';
+    color: rgb(245, 55, 55);
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 38px;
+}
+
+/* Sponsers Page */
+
+table{
+    text-align: center;
+    width: 100%;
+    font-family: 'Noto Sans TC';
+    font-size: 20px;
+}
+td{
+    width: 33.33%;
+}
+.AHCLogo img{
+    height: 115px;
 }

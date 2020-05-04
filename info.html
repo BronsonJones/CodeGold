@@ -3,8 +3,16 @@
     <head>
         <title>Information-SHHS FBLA</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     </head>
     <header>
+            <div class="SHBusinessLeaders"><ul>
+                <li><p>Scotts Hill</p></li>
+                <li><div class="ShFblaLogo"><img src="images/SHFBLAlogo.png"></div></li>
+                <li><p>Business Leaders</p></li>
+                </ul></div>
+        <div class="Nav">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -14,6 +22,32 @@
                 <li><a href="info.html">Information</a></li>
                 <li><a href="about.html">About Us</a></li>
             </ul>
-        </nav>
+        </nav></div>
     </header>
+    <body>
+        <div class="InfoHeader"><h1>Information</h1></div>
+            <div class="InfoMessage"><h2>Fill out the form below if you have any questions or would 
+                like to contact us.</h2></div>
+        <div class="form">
+        <form action="#" method="post">
+            <fieldset>
+                <h3>Firstname</h3>
+                <input type="text" name="textfield">
+                <h3>Lastname</h3>
+                <input type="text" name="textfield">
+                <h3>For what reason are you contacting us?</h3>
+                <!-- input a div here for fixing the text in the inputs -->
+                <input type="radio" name="reason" value="question"> I have a question. <br>
+                <input type="radio" name="reason" value="join"> I would like to join. <br>
+                <input type="radio" name="reason" value="other"> Other <br>
+                <!-- end the div here -->
+                <h3>Message</h3>
+                <textarea name="Message" rows="10" cols="50"></textarea>
+                <h3>Return E-Mail Address</h3>
+                <input type="text" name="textfield"><br><br>
+                <button>Submit</button>
+            </fieldset>
+        </form></div>
+        <script src="main.js"></script>
+    </body>
 </html>
