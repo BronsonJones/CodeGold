@@ -147,7 +147,9 @@ nav{
 
 table{
     text-align: center;
-    width: 100%;
+    max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
     font-family: 'Noto Sans TC';
     font-size: 20px;
 }
