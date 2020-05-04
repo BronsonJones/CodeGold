@@ -160,5 +160,5 @@ td{
     width: 33.33%;
 }
 .AHCLogo img{
-    height: 115px;
+    max-height: 50%;
 }
