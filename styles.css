@@ -85,6 +85,20 @@ nav{
     background-color: rgb(245, 55, 55);
     font-size: 35px;
 }
+.HomeHeader {
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(245, 55, 55);
+    font-size: 35px;
+}
+.OfficersHeader{
+    font-family: 'Rubik', sans-serif;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(245, 55, 55);
+    font-size: 35px;
+}
 
 /*SHHS FBLA Top Logo*/
 
@@ -124,6 +138,13 @@ nav{
     float: left;
     height: 250px;
 }
+.Missionpara{
+    font-size: 27px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-family: 'Noto Sans TC';
+}
 
 /*Info Page*/
 
@@ -151,8 +172,6 @@ nav{
 table{
     text-align: center;
     max-width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
     font-family: 'Noto Sans TC';
     font-size: 20px;
 }
@@ -161,4 +180,57 @@ td{
 }
 .AHCLogo img{
     max-height: 50%;
+}
+
+/* Home Page */
+
+.Congrats{
+    font-family: 'Noto Sans TC';
+    background-color: dodgerblue;
+    padding: 20px;
+}
+.Congrats h3 {
+    font-size: 225%;
+    text-align: center;
+}
+.Congrats p{
+    font-size: 190%;
+}
+.Congrats img{
+    float: right;
+    max-height: 250px;
+    padding: 20px;
+}
+.SLC {
+    text-align: center;
+    font-family: 'Noto Sans TC';
+    background-color: rgb(153, 153, 153);
+    padding: 20px;
+    font-size: 170%;
+}
+.SLC img {
+    float:left;
+    padding: 20px;
+}
+.Contact {
+    font-family: 'Noto Sans TC';
+    text-align: center;
+    background-color: dodgerblue;
+    padding: 15px;
+}
+.Contact a{
+    color: rgb(245, 55, 55);
+    text-decoration-color: dodgerblue;
+}
+
+/* officers page */
+
+.Positions{
+    font-family: 'Noto Sans TC';
+    text-align: center;
+    background-color:dodgerblue;
+    padding: 10px;
+}
+.OfficersPic{
+    padding-top: 5px;
 }
